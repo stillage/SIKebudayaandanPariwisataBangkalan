@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dashboard">
+
+    <ImageView
+        android:background="#0584EC"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:background="@drawable/bangkalan"
+                android:layout_width="80dp"
+                android:layout_height="90dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Dinas Kebudayaan dan Pariwisata Bangkalan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp"
+                android:text="Jl. Soekarno Hatta No. 39 A Telp/Fax. 031-3097065 Bangkalan 69116"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#2AB1B0B0"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_horizontal">
+                    <ImageButton
+                        android:onClick="kebud"
+                        android:id="@+id/kebudayaan"
+                        app:srcCompat="@drawable/ic_kebudayaan"
+                        android:background="@color/colorWhite"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="KEBUDAYAAN"
+                        android:typeface="sans"
+                        android:textSize="11dp"
+                        android:textColor="#0584EC"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_horizontal">
+                    <ImageButton
+                        android:onClick="desti"
+                        android:id="@+id/destinasi"
+                        app:srcCompat="@drawable/ic_destinasi"
+                        android:background="@color/colorWhite"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DESTINASI"
+                        android:typeface="sans"
+                        android:textSize="11dp"
+                        android:textColor="#0584EC"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_horizontal">
+                    <ImageButton
+                        android:onClick="pema"
+                        android:id="@+id/pemasaran"
+                        app:srcCompat="@drawable/ic_pemasaran"
+                        android:background="@color/colorWhite"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PEMASARAN"
+                        android:typeface="sans"
+                        android:textSize="11dp"
+                        android:textColor="#0584EC"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/colorWhite"
+                    android:gravity="center_horizontal">
+                    <ImageButton
+                        android:id="@+id/ekodankrea"
+                        app:srcCompat="@drawable/ic_ekonomidankreatif"
+                        android:background="@color/colorWhite"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EKONOMI DAN KREATIF"
+                        android:typeface="sans"
+                        android:textSize="11dp"
+                        android:textColor="#0584EC"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#0584EC"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copyright© 2020"
+                android:layout_gravity="center"
+                android:typeface="sans"
+                android:textSize="11dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dashboard">
+<item android:title="Sosial Media">
+    <menu>
+        <item android:id="@+id/instagram"
+            android:onClick="inst"
+            android:title="Instagram"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/youtube"
+            android:onClick="yout"
+            android:title="Youtube"
+            app:showAsAction="never" />
+
+        <item android:id="@+id/facebook"
+            android:onClick="face"
+            android:title="Facebook"
+            app:showAsAction="never" />
+        <item android:id="@+id/deskgram"
+            android:onClick="desk"
+            android:title="Deksgram"
+            app:showAsAction="never" />
+    </menu>
+</item>
+    <item android:id="@+id/maps"
+        android:onClick="maps"
+        android:title="Google Maps"
+        app:showAsAction="never" />
+
+
+</menu>

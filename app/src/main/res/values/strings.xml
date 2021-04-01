@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_menu_pemasaran"></string>
+    <string name="text1">
+        <b>"UD. Pesona Batik Madura\n\n</b>Alamat : Jl. Lawu 19 Mlajah Bangkalan.\nNomer Telepon : (+6231)3097934\nJenis Kerajinan : Batik Tulis Madura."
+    </string>
+    <string name="text2">
+        <b>"UD. Kurnia\n\n</b>Alamat : Jl. Raya Tanjungbumi, Kec.Tjbumi.\nNomer Telepon : (+6231)3071095\nJenis Kerajinan : Batik Tulis Madura."
+    </string>
+    <string name="text3">
+        <b>"UD. Sabar Indah Collection\n\n</b>Alamat : Jl. Cempaka 119 Ds.Paseseh Kec.Tjbumi.\nNomer Telepon : (+6231)3071103\nJenis Kerajinan : Batik Tulis Madura."
+    </string>
+    <string name="text4">
+        <b>"UD. Antika Madura Handicraft\n\n</b>Alamat : Jl. K.H.Abd.Mukti 232 Ds.Dupok Kec.Kokop.\nNomer Telepon : (+6231)3036026\nJenis Kerajinan : Tali Agel."
+    </string>
+    <string name="text5">
+        <b>"UD. Antika Kurnia Collection\n\n</b>Alamat : Jl. Samudra 101 Kec.Sepulu.\nNomer Telepon : (+6231)3079315\nJenis Kerajinan : Songkok."
+    </string>
+    <string name="text6">
+        <b>"Industri Celurit\n\n</b>Alamat : Jl. Rembah Ds.Peterongan Kec.Galis.\nNomer Telepon : -\nJenis Kerajinan : Celurit Hias."
+    </string>
+    <string name="text7">
+        <b>"Industri Pecut\n\n</b>Alamat : Dsn.Lembanan Ds.Daleman Kec.Galis.\nNomer Telepon : (+6231)71496352\nJenis Kerajinan : Pecut Hias."
+    </string>
+    <string name="text8">
+        <b>"UD. Jamu Ny.Badriyah\n\n</b>Alamat : Jl.K.H.Marzuki 6A Bangkalan\nNomer Telepon : (+6231)3091606\nJenis Kerajinan : Jamu Tradisional Madura."
+    </string>
+    <string name="text9">
+        <b>"UD. Sumber Madu\n\n</b>Alamat : Jl.K.H.Moh.Kholil 50A Bangkalan.\nNomer Telepon : (+6231)3095971\nJenis Kerajinan : Jamu Dan Kosmetik Tradisional."
+    </string>
+    <string name="text10">
+        <b>"UD. Nata\n\n</b>Alamat : Jl. R.A.Kartini I/2 Bangkalan.\nNomer Telepon : (+6231)3096246\nJenis Kerajinan : Jamu Dan SPA Tradisional."
+    </string>
+    <string name="text11">
+        <b>"Sanggar Seni Bambu\n\n</b>Alamat : Jl. Halim Perdana Kusumah Bangkalan.\nNomer Telepon : (+62)8179337722\nJenis Kerajinan : Kerajinan Kursi Bambu."
+    </string>
+    <string name="text12">
+        <b>"UD. Al-Fath Batu Indah\n\n</b>Alamat : Jl. Rong Minyak Ds.Tambin Kec.Tragah.\nNomer Telepon : (+62)81703622798\nJenis Kerajinan : Batu Keramik."
+    </string>
+    <string name="text13">
+        <b>"Industri Kerajinan Sangkar Burung\n\n</b>Alamat : Jl. Jaddih Temor Kec.Socah.\nNomer Telepon : (+62)85645923605\nJenis Kerajinan : Sangkar Burung Perkutut."
+    </string>
+    <string name="text14">
+        <b>"UD. Logam Mulia\n\n</b>Alamat : Jl. Raya Dsn.Batu Ampar Ds.Tragah Kec.Tragah.\nNomer Telepon : (+6231)70546024\nJenis Kerajinan : Cincin Perak."
+    </string>
+    <string name="text15">
+        <b>"CV. Devri Art Production\n\n</b>Alamat : Jl. Jokotole III/25 Bangkalan.\nNomer Telepon : (+62)85655511778 Dan (+62)82230403356\nJenis Kerajinan : Sepatu, Tas, Dan Kaos Lukis; Hantaran Pernikahan, Souvenir."
+    </string>
+    <string name="text16">
+        <b>"UD. Asri\n\n</b>Alamat : Jl. Raya Kamal Kec.Kamal.\nNomer Telepon : (+6231)3012983\nJenis Kerajinan : Souvenir Khas Madura."
+    </string>
+    <string name="text17">
+        <b>"Peri Kecil\n\n</b>Alamat : Jl. Embong Mereng Kec.Burneh.\nNomer Telepon : (+62)85230071717\nJenis Kerajinan : Batik Tulis Madura, Kerajinan Dari Batik."
+    </string>
+    <string name="text18">
+        <b>"Jokotole Collection\n\n</b>Alamat : Jl. Kinibalu, Martajasah, Bangkalan.\nNomer Telepon : (+62)81273111811\nJenis Kerajinan : Rumah UMKM Madura."
+    </string>
+
+    <string name="hotel1">
+        <b>"Hotel Ningrat\n\n</b>Alamat : Jl. K.H. Moh. Kholil No. 113 Bangkalan.\nNomer Telepon : (+6231)3095388"
+    </string>
+    <string name="hotel2">
+        <b>"Rose Hotel Bangkalan\n\n</b>Alamat : Jl. HOS Cokroaminoto 21 Bangkalan.\nNomer Telepon : (+6231)30633670"
+    </string>
+    <string name="hotel3">
+        <b>"Penginapan PKPN\n\n</b>Alamat : Jl. Panglima Soedirman No. 112A Bangkalan.\nNomer Telepon : (+6231)3098769 Dan (+6231)3093079"
+    </string>
+    <string name="hotel4">
+        <b>"Penginapan MAN\n\n</b>Alamat : Jl. Soekarno-Hatta No. 3C Bangkalan.\nNomer Telepon : (+6231)2095596"
+    </string>
+    <string name="hotel5">
+        <b>"Rato Ebhu\n\n</b>Alamat : Jl. A. Yani No. 1 Bangkalan.\nNomer Telepon : (+6231)3061999"
+    </string>
+    <string name="hotel6">
+        <b>"Penginapan Prima Sejahtera\n\n</b>Alamat : Jl. Pertempuran 21 Bangkalan.\nNomer Telepon : (+6231)3090457"
+    </string>
+
+    <string name="resto1">
+        <b>"RM. Tera' Bulan\n\n</b>Alamat : Jl. Raya Ketengan No. 69 Burneh Bangkalan.\nNomer Telepon : (+6231)3090095"
+    </string>
+    <string name="resto2">
+        <b>"Sinjay\n\n</b>Alamat : Jl. Raya Ketengan Bangkalan.\nNomer Telepon : (+62)87849655545"
+    </string>
+    <string name="resto3">
+        <b>"Suramadu Resto And Cafe\n\n</b>Alamat : Jl. Raya Tangkel Burneh Bangkalan.\nNomer Telepon : (+62)87750984115 Dan (+62)81231417651"
+    </string>
+    <string name="resto4">
+        <b>"Ole Olang\n\n</b>Alamat : Jl. Raya Ketengan Bangkalan.\nNomer Telepon : (+6231)3091844 Dan (+62)85319191314"
+    </string>
+    <string name="resto5">
+        <b>"Maduratna\n\n</b>Alamat : Jl. Ringroad Timur Bangkalan.\nNomer Telepon : (+62)81332001899"
+    </string>
+    <string name="resto6">
+        <b>"Sri Rejeki\n\n</b>Alamat : Jl. Tarogan Bangkalan.\nNomer Telepon : (+6231)30952214"
+    </string>
+    <string name="resto7">
+        <b>"Dapur Potre Koneng\n\n</b>Alamat : Jl. K.H.Ach. Munif Burneh Bangkalan.\nNomer Telepon : (+62)87849752801"
+    </string>
+    <string name="resto8">
+        <b>"New Purnama\n\n</b>Alamat : -\nNomer Telepon : (+62)87853774448"
+    </string>
+    <string name="resto9">
+        <b>"Cafe Italiano\n\n</b>Alamat : Jl. KH. Lemah Duwur Bangkalan.\nNomer Telepon : (031)3094566"
+    </string>
+    <string name="resto10">
+        <b>"Cafe Donald\n\n</b>Alamat : Jl. Moh. Kholil Bangkalan.\nNomer Telepon : (031)3095734"
+    </string>
+    <string name="resto11">
+        <b>"Zamzam\n\n</b>Alamat : Jl. Trunojoyo No. 14 Bangkalan.\nNomer Telepon : (031)3096781"
+    </string>
+
+    <string name="rental1">
+        <b>"Mentari Rent Car\n\n</b>Alamat : Jl. Nusa Indah No. 8A, Perumda Mlajah, Bangkalan.\nNomer Telepon : (+62)81231355858"
+    </string>
+    <string name="rental2">
+        <b>"Rudi Rent Car\n\n</b>Alamat : Perum IMC Blok AB Mlajah Bangkalan.\nNomer Telepon : (+62)87751140444"
+    </string>
+    <string name="rental3">
+        <b>"Goez Rent Car\n\n</b>Alamat : Jl. KH. Moh. Kholil 8/47 Bangkalan.\nNomer Telepon : (+62)87822690004"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="play">PLAY</string>
+
+</resources>

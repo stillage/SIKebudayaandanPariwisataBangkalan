@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sikebudayaandanpariwisatabangkalan">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".kebudayaan_lagu_congkenedanbhing"></activity>
+        <activity android:name=".kebudayaan_lagu_trunojoyo" />
+        <activity android:name=".kebudayaan_lagu_tandukmajang" />
+        <activity android:name=".kebudayaan_lagu_takgoyangtultul" />
+        <activity android:name=".kebudayaan_lagu_sotomadura" />
+        <activity android:name=".kebudayaan_lagu_senanggala" />
+        <activity android:name=".kebudayaan_lagu_rowaklajar" />
+        <activity android:name=".kebudayaan_lagu_ronggosukowati" />
+        <activity android:name=".kebudayaan_lagu_potremadura" />
+        <activity android:name=".kebudayaan_lagu_pornama_e_penggerseros" />
+        <activity android:name=".kebudayaan_lagu_pelteng" />
+        <activity android:name=".kebudayaan_lagu_paseserjumiangeros" />
+        <activity android:name=".kebudayaan_lagu_pangesto" />
+        <activity android:name=".kebudayaan_lagu_pangerancakraningrat" />
+        <activity android:name=".kebudayaan_lagu_pajjarlaggu" />
+        <activity android:name=".kebudayaan_lagu_pahlawantrunojoyo" />
+        <activity android:name=".kebudayaan_lagu_orambakorambing" />
+        <activity android:name=".kebudayaan_lagu_olleolang" />
+        <activity android:name=".kebudayaan_lagu_nyandangtaresnabini" />
+        <activity android:name=".kebudayaan_lagu_nyandhangtaresnalake" />
+        <activity android:name=".kebudayaan_lagu_ngodhudhuwa" />
+        <activity android:name=".kebudayaan_lagu_mariamsoto" />
+        <activity android:name=".kebudayaan_lagu_lirsaalir" />
+        <activity android:name=".kebudayaan_lagu_lanbulanan" />
+        <activity android:name=".kebudayaan_lagu_kembangnganagaraeros" />
+        <activity android:name=".kebudayaan_lagu_kembangnganagar" />
+        <activity android:name=".kebudayaan_lagu_kembangmalatepothe" />
+        <activity android:name=".kebudayaan_lagu_kelangan" />
+        <activity android:name=".kebudayaan_lagu_keklesap" />
+        <activity android:name=".kebudayaan_lagu_karabansape" />
+        <activity android:name=".kebudayaan_lagu_kapencottaresna" />
+        <activity android:name=".kebudayaan_lagu_kacongtorcebingthemsong" />
+        <activity android:name=".kebudayaan_lagu_kacongtorcebing" />
+        <activity android:name=".kebudayaan_lagu_gowapajudan" />
+        <activity android:name=".kebudayaan_lagu_gheikbintang" />
+        <activity android:name=".kebudayaan_lagu_enanggala" />
+        <activity android:name=".kebudayaan_lagu_baaambakan" />
+        <activity android:name=".kebudayaan_lagu_baambaan" />
+        <activity android:name=".kebudayaan_lagu_aermata" />
+        <activity android:name=".kebudayaan_lagu_aduhberemma" />
+        <activity android:name=".budayatari" />
+        <activity android:name=".budayacarok" />
+        <activity android:name=".budayarokat" />
+        <activity android:name=".budayakarapan" />
+        <activity android:name=".destinasi_budaya" />
+        <activity android:name=".seni_tariangas" />
+        <activity android:name=".seni_taritatak" />
+        <activity android:name=".seni_pasemoankerapansapi" />
+        <activity android:name=".seni_taripecut" />
+        <activity android:name=".seni_gemantaka" />
+        <activity android:name=".seni_tandang" />
+        <activity android:name=".seni_musiktangkateng" />
+        <activity android:name=".seni_topengtambakpocog" />
+        <activity android:name=".seni_macopat" />
+        <activity android:name=".seni_topengpatengteng" />
+        <activity android:name=".seni_angklungtopeng" />
+        <activity android:name=".seni_ghumbang" />
+        <activity android:name=".seni_jarankencak" />
+        <activity android:name=".seni_slabadan" />
+        <activity android:name=".seni_thukthuk" />
+        <activity android:name=".seni_ginggung" />
+        <activity android:name=".seni_hongbahong" />
+        <activity android:name=".adat_torontanah" />
+        <activity android:name=".adat_bacangan" />
+        <activity android:name=".adat_peletkandung" />
+        <activity android:name=".adat_rokatsomor" />
+        <activity android:name=".adat_rokattasek" />
+        <activity android:name=".kebudayaan_lagu" />
+        <activity android:name=".kebudayaan_kesenian" />
+        <activity android:name=".kebudayaan_adat_istiadat" />
+        <activity android:name=".buatanmercusuar" />
+        <activity android:name=".buatantaman" />
+        <activity android:name=".buatanpaseban" />
+        <activity android:name=".kulinernasi" />
+        <activity android:name=".kulinertajin" />
+        <activity android:name=".kulinerkue" />
+        <activity android:name=".kulinerbebek" />
+        <activity android:name=".religimakamkholil" />
+        <activity android:name=".religimataaerebuh" />
+        <activity android:name=".religimakamabdul" />
+        <activity android:name=".religimasjidagung" />
+        <activity android:name=".alamrongkang" />
+        <activity android:name=".alamgeger" />
+        <activity android:name=".alammangrove" />
+        <activity android:name=".alamkemuning" />
+        <activity android:name=".alamarosbaya" />
+        <activity android:name=".alamjeddih" />
+        <activity android:name=".destinasi_kuliner" />
+        <activity android:name=".destinasi_buatan" />
+        <activity android:name=".destinasi_religi" />
+        <activity android:name=".destinasi_alam" />
+        <activity android:name=".pemasaran_rental" />
+        <activity android:name=".pemasaran_restoran" />
+        <activity android:name=".pemasaran_hotel" />
+        <activity android:name=".menu_pemasaran" />
+        <activity
+            android:name=".pemasaran_shop"
+            android:label="@string/title_activity_menu_pemasaran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".menu_destinasi" />
+        <activity android:name=".menu_kebudayaan" />
+        <activity
+            android:name=".dashboard"
+            android:theme="@style/Dark" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

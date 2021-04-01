@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".menu_pemasaran">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#0584EC"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/bangkalan"
+                android:layout_marginTop="10dp"
+                android:layout_width="80dp"
+                android:layout_height="90dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Dinas Kebudayaan dan Pariwisata Bangkalan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp"
+                android:text="Jl. Soekarno Hatta No. 39 A Telp/Fax. 031-3097065 Bangkalan 69116"/>
+        </LinearLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <ViewFlipper
+                android:id="@+id/vlipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/hotel"
+                    android:onClick="hotel"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/hotel"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"/>
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/restoran"
+                    android:onClick="restoran"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/restaurant" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Restoran"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/serviskendaraan"
+                    android:onClick="serviskendaraan"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/rentcar"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rental Kendaraan"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"/>
+
+                <pl.droidsonroids.gif.GifImageButton
+                    android:id="@+id/sovenir"
+                    android:onClick="sovenir"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/shop"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toko Sovenir"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

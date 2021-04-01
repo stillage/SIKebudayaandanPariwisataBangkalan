@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenukebud"
+    tools:context=".menu_destinasi">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="#0584EC"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:background="@drawable/bangkalan"
+                android:layout_marginTop="10dp"
+                android:layout_width="80dp"
+                android:layout_height="90dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:text="Dinas Kebudayaan dan Pariwisata Bangkalan"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="10dp"
+                android:text="Jl. Soekarno Hatta No. 39 A Telp/Fax. 031-3097065 Bangkalan 69116"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_margin="5dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        <ViewFlipper
+            android:id="@+id/vlipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/religi"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/btnreligi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RELIGI"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/alam"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/btnalam" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ALAM"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/buatan"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/btnbuatan"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BUATAN"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/budaya"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/btnkebudayaan"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEBUDAYAAN"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/kuliner"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btnkuliner" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KULINER"
+                    android:typeface="sans"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="20dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
